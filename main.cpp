@@ -1,13 +1,9 @@
-/*  Name: Ryan Christian
-    Date: 3/27/22
-    Programming Assignment 3 */
-
-#include "Money.h"
 #include "Account.h"
+#include "Money.h"
 
 int main()
 {
+    std::cout << 2+2 << std::endl;
 
-    
     return 0;
 }

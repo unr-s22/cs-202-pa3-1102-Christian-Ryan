@@ -1,5 +1,8 @@
-moneys: main.cpp money.o account.o
-	g++ -std=c++11 -o main.cpp money.o account.o
+moneys: main.o money.o account.o
+	g++ -std=c++11 -o moneys main.o money.o account.o
+
+main.o: main.cpp
+	g++ -std=c++11 -c main.cpp
 
 money.o: money.cpp money.h
 	g++ -std=c++11 -c money.cpp money.h
